@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Excellence</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f8f5;
+        }
+
+        .form-container {
+            background-color: #ffffff;
+            padding: 20px;
+            border: 2px solid #4CAF50;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+        }
+
+        h1 {
+            color: #4CAF50;
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            color: #333333;
+        }
+
+        input[type="text"], input[type="email"], input[type="tel"], textarea {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+        }
+
+        .radio-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+
+        button[type="submit"] {
+            background-color: #4CAF50;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+
+<script type="text/javascript"> var submitted=false</script>
+
+<iframe name="iframeHiddenConfirm" id="iframeHiddenConfirm" style=" display: none;" onload="if(submitted){window.location='English v1.html';}"></iframe>
+
+
+    <div class="form-container">
+        <h1>English Excellence</h1>
+        <form action="https://docs.google.com/forms/d/e/1FAIpQLSfqlIsduccQZVhHaxQbD9rRpnthWNtsvATIvVq4UZNSoHveIg/formResponse" method="post" target="iframeHiddenConfirm" onsubmit="submitted=true">
+            <label for="entry.554475317">Your Name</label>
+            <input type="text" id="name" name="entry.554475317" required>
+
+            <label for="entry.442822125">Your Email</label>
+            <input type="email" id="email" name="entry.442822125" required>
+
+            <label for="entry.879225522">Your Phone</label>
+            <input type="tel" id="phone" name="entry.879225522" required>
+
+            <label for="entry.193035086">Comment</label>
+            <textarea id="comment" name="entry.193035086" rows="4" required></textarea>
+
+            <label>Choose a teacher</label>
+            <div class="radio-container">
+                <label><input type="radio" name="entry.846394020" value="Maria" required>Maria</label>
+                <label><input type="radio" name="entry.846394020" value="Artem">Artem</label>
+                <label><input type="radio" name="entry.846394020" value="Ilona">Ilona</label>
+                <label><input type="radio" name="entry.846394020" value="Volodymyr">Volodymyr</label>
+            </div>
+
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>
+
+
+<!--
+https://docs.google.com/forms/d/e/1FAIpQLSfqlIsduccQZVhHaxQbD9rRpnthWNtsvATIvVq4UZNSoHveIg/viewform?usp=pp_url&entry.554475317=AAAAAAAAAAAAAAAAAAAAA&entry.442822125=EEEEEEEEEEEEEEEEEEEEEEEE&entry.879225522=NNNNNNNNNNNNNNNNNNNNNNNNN&entry.193035086=BBBBBBBBBBBBBBBBBBBBBBBBBBBB&entry.846394020=Maria&entry.846394020=Artem&entry.846394020=Ilona&entry.846394020=Volodymyr
+-->
